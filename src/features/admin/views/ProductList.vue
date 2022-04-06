@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import {
   useFetchProducts,
-  tryDeleteProduct,
+  deleteProduct,
 } from '../../../shared/services/product.service';
 
 const { products, loading, error } = useFetchProducts();
